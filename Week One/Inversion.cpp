@@ -54,9 +54,5 @@ int main()
     for(int i = 0; i < 100000; i ++)
         cin >> a[i];
     cout << Inversion(a, 0, 99999) << endl;
-    /*for(int i = 0; i < len; i ++)
-    {
-        cout << sample[i] << endl;
-    }*/
 }
 
