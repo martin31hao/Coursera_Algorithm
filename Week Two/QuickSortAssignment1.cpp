@@ -35,10 +35,6 @@ int main()
         cin >> a[i];
     num = 0;
     QuickSort(a, 0, n - 1);
-    /*cout << "After sorting:" << endl;
-    for(int i = 0; i < n - 1; i ++)
-        cout << a[i] << " ";
-    cout << a[n-1] << endl;*/
     cout << "number of comparisons: " << num << endl;
 }
 
